@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Birthday</title>
+        <link href="css/index.css" rel="stylesheet">
+        <script src="js/countdown.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+        <script>
+
+            $(document).ready(function () {
+                $("#12").hover(function () {
+                    window.location.href = "Message2.html"; // Redirect to message.php when #13 is hovered over
+                });
+            });
+
+        </script>
+        
+      
+    </head>
+    <body>
+        <div class="birthdayCard">
+            <div class="cardFront">
+                <div class="front-text">
+                    <h3 class="happy">HAPPY</h3>
+                    <h2 class="bday">BIRTHDAY</h2> 
+                    <h3 class="toyou">to you!</h3>  
+                </div>
+                <div class="wrap-deco">
+                    <div class="decorations"></div>
+                    <div class="decorationsTwo"></div>
+                </div> 
+                <div class="wrap-decoTwo">
+                    <div class="decorations"></div>
+                    <div class="decorationsThree"></div>
+                </div>
+                <div class="plate">
+                    <div class="cake"></div>
+                    <div class="flame"></div>
+                </div>
+            </div>
+
+            <div class="cardInside">
+                <div class="inside-text">
+                    <h3 class="happy">HAPPY</h3>
+                    <h2 class="bday">BIRTHDAY</h2> 
+                    <h3 class="toyou">to you!</h3>  
+                </div>
+                <div class="wishes" style="font-size:30px;">
+                    <p id="greeting">Hi 詩媛</p>
+                    <p id="birthday"></p>
+                    <p id="happy"></p>
+                    <p id="number3"></p>
+                    <p id="number2"></p>
+                    <p id="number1"></p>
+                </div>
+                <div class="message" style="position: relative;top:-50px; margin: 25px;">
+                    <p id="1"></p> 
+                    <p id="2"></p>
+                    <p id="3"></p>
+                    <p id="4"></p>   
+                    <p id="5"></p>
+                    <p id="6"></p>
+                    
+
+                    <p id="7"></p>
+                    <p id="8"></p>
+                    <p id="9"></p>
+                    <p id="10"></p>
+                    <p id="11"></p>
+                    <p id="12"></p>
+
+
+                </div>
+
+            </div>
+        </div>
+
+
+    </body>
+</html>

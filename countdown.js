@@ -120,7 +120,7 @@ document.addEventListener("DOMContentLoaded", function () {
     }, 21000); // 3 seconds after the greeting changes
 
     setTimeout(function () {
-        number12Element.textContent = "滑动"; // Display "happy birthday"
+        number12Element.textContent = "點擊"; // Display "happy birthday"
     }, 22000); // 3 seconds after the greeting changes
 });
 

@@ -54,38 +54,38 @@ document.addEventListener("DOMContentLoaded", function () {
     setTimeout(function () {
         numberCount3Element.textContent = ""; // Clear the birthday message               
         numberCount2Element.textContent = "2"; // Display "happy birthday"
-    }, 9300); // 3 seconds after the greeting changes
+    }, 12000); // 3 seconds after the greeting changes
     setTimeout(function () {
         numberCount2Element.textContent = ""; // Clear the birthday message               
         numberCount1Element.textContent = "1"; // Display "happy birthday"
-    }, 9600); // 3 seconds after the greeting changes
+    }, 15000); // 3 seconds after the greeting changes
 
     setTimeout(function () {
         numberCount1Element.textContent = "";
         number1Element.textContent = "愿妳此生一生被爱，坦荡自若，"; // Display "生日快乐"
-    }, 10000);
+    }, 12000);
 
     // Function to display "happy birthday" after another 6 seconds
     setTimeout(function () {
         number2Element.textContent = "无忧无疾。祝你的生日充满美好"; // Display "happy birthday"
-    }, 13000); // 3 seconds after the greeting changes
+    }, 15000); // 3 seconds after the greeting changes
 
     setTimeout(function () {
         number3Element.textContent = "的回忆，愿未来的日子更加辉煌。"; // Display "生日快乐"
-    }, 16000);
+    }, 18000);
 
     setTimeout(function () {
         number4Element.textContent = "愿你的生日充满欢笑和美好的回忆。"; // Display "happy birthday"
-    }, 19000); // 3 seconds after the greeting changes
+    }, 21000); // 3 seconds after the greeting changes
 
 
     setTimeout(function () {
         number5Element.textContent = "愿你的生日充满阳光、欢笑和温馨，"; // Display "happy birthday"
-    }, 22000); // 3 seconds after the greeting changes
+    }, 24000); // 3 seconds after the greeting changes
 
     setTimeout(function () {
         number6Element.textContent = "永远快乐。妳若不伤，岁月无恙。"; // Display "happy birthday"
-    }, 25000); // 3 seconds after the greeting changes
+    }, 27000); // 3 seconds after the greeting changes
 
     setTimeout(function () {
         number1Element.textContent = ""; // Display "happy birthday"
@@ -95,7 +95,7 @@ document.addEventListener("DOMContentLoaded", function () {
         number5Element.textContent = "";
         number6Element.textContent = "";
         
-    }, 25500); // 3 seconds after the greeting changes
+    }, 27500); // 3 seconds after the greeting changes
 
 
 
